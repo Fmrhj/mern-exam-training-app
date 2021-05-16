@@ -1,0 +1,449 @@
+[
+  {
+    "setname": "set 1",
+    "questions": [
+      {
+        "index": 1,
+        "description": "You are developing a hands-on workshop to introduce Docker for Windows to attendees. You need to ensure that workshop attendees can install Docker on their devices. Which two prerequisite components should attendees install on the devices? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point.",
+        "alternatives": {
+          "A": "Microsoft Hardware-Assisted Virtualization Detection Tool",
+          "B": "Kitematic",
+          "C": "BIOS-enabled virtualization ",
+          "D": "VirtualBox",
+          "E": "Windows 10 64-bit Professional"
+        },
+        "answer": ["C", "E"]
+      },
+      {
+        "index": 2,
+        "description": "Your team is building a data engineering and data science development environment. The environment must support the following requirements: ✑ support Python and Scala ✑ compose data storage, movement, and processing services into automated data pipelines ✑ the same tool should be used for the orchestration of both data engineering and data science ✑ support workload isolation and interactive workloads ✑ enable scaling across a cluster of machines You need to create the environment. What should you do?",
+        "alternatives": {
+          "A": "Build the environment in Apache Hive for HDInsight and use Azure Data Factory for orchestration. ",
+          "B": "Build the environment in Azure Databricks and use Azure Data Factory for orchestration. ",
+          "C": "Build the environment in Apache Spark for HDInsight and use Azure Container Instances for orchestration. ",
+          "D": "Build the environment in Azure Databricks and use Azure Container Instances for orchestration. "
+        },
+        "answer": ["B"]
+      },
+      {
+        "index": 3,
+        "description": "You plan to build a team data science environment. Data for training models in machine learning pipelines will be over 20 GB in size. You have the following requirements: ✑ Models must be built using Caffe2 or Chainer frameworks. ✑ Data scientists must be able to use a data science environment to build the machine learning pipelines and train models on their personal devices in both connected and disconnected network environments. Personal devices must support updating machine learning pipelines when connected to a network. You need to select a data science environment. Which environment should you use?",
+        "alternatives": {
+          "A": "Azure Machine Learning Service",
+          "B": "Azure Machine Learning Studio ",
+          "C": "Azure Databricks ",
+          "D": "Azure Kubernetes Service (AKS)"
+        },
+        "answer": ["A"]
+      },
+      {
+        "index": 4,
+        "description": "You are implementing a machine learning model to predict stock prices. The model uses a PostgreSQL database and requires GPU processing. You need to create a virtual machine that is pre-configured with the required tools. What should you do?",
+        "alternatives": {
+          "A": "Create a Data Science Virtual Machine (DSVM) Windows edition.",
+          "B": "Create a Geo Al Data Science Virtual Machine (Geo-DSVM) Windows edition. ",
+          "C": "Create a Deep Learning Virtual Machine (DLVM) Linux edition.",
+          "D": "Create a Deep Learning Virtual Machine (DLVM) Windows edition. "
+        },
+        "answer": ["A"]
+      },
+      {
+        "index": 5,
+        "description": "You are developing deep learning models to analyze semi-structured, unstructured, and structured data types. You have the following data available for model building: ✑ Video recordings of sporting events ✑ Transcripts of radio commentary about events ✑ Logs from related social media feeds captured during sporting events You need to select an environment for creating the model. Which environment should you use?",
+        "alternatives": {
+          "A": "Azure Cognitive Services.",
+          "B": "Azure Data Lake Analytics.",
+          "C": "Azure HDInsight with Spark MLib.",
+          "D": "Azure Machine Learning Studio."
+        },
+        "answer": ["A"]
+      },
+      {
+        "index": 6,
+        "description": "You must store data in Azure Blob Storage to support Azure Machine Learning. You need to transfer the data into Azure Blob Storage. What are three possible ways to achieve the goal? Each correct answer presents a complete solution. NOTE: Each correct selection is worth one point.",
+        "alternatives": {
+          "A": "Bulk Insert SQL Query.",
+          "B": "AzCopy",
+          "C": "Python script",
+          "D": "Azure Storage Explorer",
+          "E": "Bulk Copy Program (BCP)"
+        },
+        "answer": ["B", "C", "D"]
+      },
+      {
+        "index": 7,
+        "description": "You are moving a large dataset from Azure Machine Learning Studio to a Weka environment. You need to format the data for the Weka environment. Which module should you use?",
+        "alternatives": {
+          "A": "Convert to CSV",
+          "B": "Convert to Dataset",
+          "C": "Convert to ARFF",
+          "D": "Convert to SVMLight"
+        },
+        "answer": ["C"]
+      },
+      {
+        "index": 8,
+        "description": "You plan to create a speech recognition deep learning model. The model must support the latest version of Python. You need to recommend a deep learning framework for speech recognition to include in the Data Science Virtual Machine (DSVM). What should you recommend?",
+        "alternatives": {
+          "A": "Rattle (R Analytical Tool)",
+          "B": "TensorFlow",
+          "C": "Weka (used for data mining and machine learning software in Java",
+          "D": "Scikit-learn"
+        },
+        "answer": ["B"]
+      },
+      {
+        "index": 9,
+        "description": "You plan to use a Deep Learning Virtual Machine (DLVM) to train deep learning models using Compute Unified Device Architecture (CUDA) computations. You need to configure the DLVM to support CUDA. What should you implement?",
+        "alternatives": {
+          "A": "Solid State Drives (SSD)",
+          "B": "Computer Processing Unit (CPU) speed increase by using overclocking ",
+          "C": "Graphic Processing Unit (GPU)",
+          "D": "High Random Access Memory (RAM) configuration",
+          "E": "Intel Software Guard Extensions (Intel SGX) technology "
+        },
+        "answer": ["C"]
+      },
+      {
+        "index": 10,
+        "description": "You plan to use a Data Science Virtual Machine (DSVM) with the open source deep learning frameworks Caffe2 and PyTorch. You need to select a pre-configured DSVM to support the frameworks. What should you create?",
+        "alternatives": {
+          "A": "Data Science Virtual Machine for Windows 2012",
+          "B": "Data Science Virtual Machine for Linux (CentOS)",
+          "C": "Geo AI Data Science Virtual Machine with ArcGIS",
+          "D": "Data Science Virtual Machine for Windows 2016 ",
+          "E": "Data Science Virtual Machine for Linux (Ubuntu) "
+        },
+        "answer": ["E"],
+        "explanation": "Caffe2 and PyTorch is supported by Data Science Virtual Machine for Linux."
+      },
+      {
+        "index": 11,
+        "description": "You are developing a data science workspace that uses an Azure Machine Learning service. You need to select a compute target to deploy the workspace. What should you use?",
+        "alternatives": {
+          "A": "Azure Data Lake Analytics",
+          "B": "Azure Databricks",
+          "C": "Azure Container Service",
+          "D": "Apache Spark for HDInsight"
+        },
+        "answer": ["C"],
+        "explanation": "Azure Container Instances can be used as compute target for testing or development. Use for low-scale CPU-based workloads that require less than 48 GB of RAM."
+      },
+      {
+        "index": 12,
+        "description": "You are solving a classification task. The dataset is imbalanced. You need to select an Azure Machine Learning Studio module to improve the classification accuracy. Which module should you use?",
+        "alternatives": {
+          "A": "Permutation Feature Importance.",
+          "B": "Filter Based Feature Selection.",
+          "C": "Fisher Linear Discriminant Analysis.",
+          "D": "Synthetic Minority Oversampling Technique (SMOTE)."
+        },
+        "answer": ["D"],
+        "explanation": "Use the SMOTE module in Azure Machine Learning Studio (classic) to increase the number of underepresented cases in a dataset used for machine learning. SMOTE is a better way of increasing the number of rare cases than simply duplicating existing cases. You connect the SMOTE module to a dataset that is imbalanced. There are many reasons why a dataset might be imbalanced: the category you are targeting might be very rare in the population, or the data might simply be difficult to collect. Typically, you use SMOTE when the class you want to analyze is under- represented."
+      },
+      {
+        "index": 13,
+        "description": "You are analyzing a dataset containing historical data from a local taxi company. You are developing a regression model. You must predict the fare of a taxi trip. You need to select performance metrics to correctly evaluate the regression model. Which two metrics can you use? Each correct answer presents a complete solution? NOTE: Each correct selection is worth one point.",
+        "alternatives": {
+          "A": "a Root Mean Square Error value that is low",
+          "B": "an R-Squared value close to 0 ",
+          "C": "an F1 score that is low ",
+          "D": "an R-Squared value close to 1 ",
+          "E": "an F1 score that is high ",
+          "F": "a Root Mean Square Error value that is high "
+        },
+        "answer": ["A", "D"],
+        "explanation": "RMSE and R2 are both metrics for regression models."
+      },
+      {
+        "index": 14,
+        "description": "You plan to provision an Azure Machine Learning Basic edition workspace for a data science project. You need to identify the tasks you will be able to perform in the workspace. Which three tasks will you be able to perform? Each correct answer presents a complete solution. NOTE: Each correct selection is worth one point.",
+        "alternatives": {
+          "A": "Create a Compute Instance and use it to run code in Jupyter notebooks. ",
+          "B": "Create an Azure Kubernetes Service (AKS) inference cluster. ",
+          "C": "Use the designer to train a model by dragging and dropping pre-defined modules. ",
+          "D": "Create a tabular dataset that supports versioning.",
+          "E": "Use the Automated Machine Learning user interface to train a model. "
+        },
+        "answer": ["A", "B", "D"],
+        "explanation": "C, E: The UI is included the Enterprise edition only."
+      },
+      {
+        "index": 15,
+        "description": "You create a deep learning model for image recognition on Azure Machine Learning service using GPU-based training. You must deploy the model to a context that allows for real-time GPU-based inferencing. You need to configure compute resources for model inferencing. Which compute type should you use?",
+        "alternatives": {
+          "A": "Azure Container Instance",
+          "B": "Azure Kubernetes Service",
+          "C": "Field Programmable Gate Array",
+          "D": "Machine Learning Compute"
+        },
+        "answer": ["B"],
+        "explanation": "You can use Azure Machine Learning to deploy a GPU-enabled model as a web service. Deploying a model on Azure Kubernetes Service (AKS) is one option. The AKS cluster provides a GPU resource that is used by the model for inference. Inference, or model scoring, is the phase where the deployed model is used to make predictions. Using GPUs instead of CPUs offers performance advantages on highly parallelizable computation."
+      },
+      {
+        "index": 16,
+        "description": "You train and register a model in your Azure Machine Learning workspace. You must publish a pipeline that enables client applications to use the model for batch inferencing. You must use a pipeline with a single ParallelRunStep step that runs a Python inferencing script to get predictions from the input data. You need to create the inferencing script for the ParallelRunStep pipeline step. Which two functions should you include? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point.",
+        "alternatives": {
+          "A": "run(mini_batch)",
+          "B": "main()",
+          "C": "batch()",
+          "D": "init()",
+          "E": "score(mini_batch)"
+        },
+        "answer": ["A", "D"],
+        "explanation": "https://github.com/Azure/MachineLearningNotebooks/tree/master/how-to-use-azureml/machine-learning-pipelines/parallel-run"
+      },
+      {
+        "index": 17,
+        "description": "You create a multi-class image classification deep learning model. You train the model by using PyTorch version 1.2. You need to ensure that the correct version of PyTorch can be identified for the inferencing environment when the model is deployed. What should you do?",
+        "alternatives": {
+          "A": "Save the model locally as a.pt file, and deploy the model as a local web service.",
+          "B": "Deploy the model on computer that is configured to use the default Azure Machine Learning conda environment.",
+          "C": "Register the model with a .pt file extension and the default version property.",
+          "D": "Register the model, specifying the model_framework and model_framework_version properties."
+        },
+        "answer": ["D"],
+        "explanation": "framework_version: The PyTorch version to be used for executing training code."
+      },
+      {
+        "index": 18,
+        "description": "You train a machine learning model. You must deploy the model as a real-time inference service for testing. The service requires low CPU utilization and less than 48 MB of RAM. The compute target for the deployed service must initialize automatically while minimizing cost and administrative overhead. Which compute target should you use?",
+        "alternatives": {
+          "A": "Azure Container Instance (ACI)",
+          "B": "attached Azure Databricks cluster",
+          "C": "Azure Kubernetes Service (AKS) inference cluster ",
+          "D": "Azure Machine Learning compute cluster"
+        },
+        "answer": ["A"],
+        "explanation": "Azure Container Instances (ACI) are suitable only for small models less than 1 GB in size. Use it for low-scale CPU-based workloads that require less than 48 GB of RAM."
+      },
+      {
+        "index": 19,
+        "description": "You register a model that you plan to use in a batch inference pipeline. The batch inference pipeline must use a ParallelRunStep step to process files in a file dataset. The script has the ParallelRunStep step runs must process six input files each time the inferencing function is called. You need to configure the pipeline. Which configuration setting should you specify in the ParallelRunConfig object for the PrallelRunStep step?",
+        "alternatives": {
+          "A": "process_count_per_node= '6'",
+          "B": "node_count= '6'",
+          "C": "mini_batch_size= '6'",
+          "D": "error_threshold= '6'"
+        },
+        "answer": ["B"],
+        "explanation": "node_count is the number of nodes in the compute target used for running the ParallelRunStep."
+      },
+      {
+        "index": 20,
+        "description": "You deploy a real-time inference service for a trained model. The deployed model supports a business-critical application, and it is important to be able to monitor the data submitted to the web service and the predictions the data generates. You need to implement a monitoring solution for the deployed model using minimal administrative effort. What should you do?",
+        "alternatives": {
+          "A": "View the explanations for the registered model in Azure ML studio. ",
+          "B": "Enable Azure Application Insights for the service endpoint and view logged data in the Azure portal. ",
+          "C": "View the log files generated by the experiment used to train the model. ",
+          "D": "Create an ML Flow tracking URI that references the endpoint, and view the data logged by ML Flow. "
+        },
+        "answer": ["B"],
+        "explanation": "Configure logging with Azure Machine Learning studio"
+      },
+      {
+        "description21": "You create an Azure Machine Learning workspace. You are preparing a local Python environment on a laptop computer. You want to use the laptop to connect to the workspace and run experiments. You create the following config.json file: '{'workspace_name': 'ml-workspace'}'",
+        "alternatives": {
+          "A": "login",
+          "B": "resource_group",
+          "C": "subscription_id",
+          "D": "key",
+          "E": "region"
+        },
+        "answer": ["B", "C"],
+        "explanation": "To use the same workspace in multiple environments, create a JSON configuration file. The configuration file saves your subscription (subscription_id), resource (resource_group), and workspace name so that it can be easily loaded."
+      },
+      {
+        "index": 22,
+        "description": "You create an Azure Machine Learning compute resource to train models. The compute resource is configured as follows: ✑ Minimum nodes: 2 ✑ Maximum nodes: 4 You must decrease the minimum number of nodes and increase the maximum number of nodes to the following values: ✑ Minimum nodes: 0 ✑ Maximum nodes: 8 You need to reconfigure the compute resource. What are three possible ways to achieve this goal? Each correct answer presents a complete solution. NOTE: Each correct selection is worth one point.",
+        "alternatives": {
+          "A": "Use the Azure Machine Learning studio.",
+          "B": "Run the update method of the AmlCompute class in the Python SDK.",
+          "C": "Use the Azure portal.",
+          "D": "Use the Azure Machine Learning designer.",
+
+          "E": " Run the refresh_state() method of the BatchCompute class in the Python SDK."
+        },
+        "answer": ["A", "B", "C"],
+        "explanation": "A: check; B: The update(min_nodes=None, max_nodes=None, idle_seconds_before_scaledown=None) of the AmlCompute class updates the ScaleSettings for this AmlCompute target.; C: https://docs.microsoft.com/en-us/python/api/azureml-core/azureml.core.compute.amlcompute(class)"
+      },
+      {
+        "index": 23,
+        "description": "You create a new Azure subscription. No resources are provisioned in the subscription. You need to create an Azure Machine Learning workspace. What are three possible ways to achieve this goal? Each correct answer presents a complete solution. NOTE: Each correct selection is worth one point.",
+        "alternatives": {
+          "A": "Run Python code that uses the Azure ML SDK library and calls the Workspace.get method with name, subscription_id, and resource_group parameters.",
+          "B": "Navigate to Azure Machine Learning studio and create a workspace.",
+          "C": "Use the Azure Command Line Interface (CLI) with the Azure Machine Learning extension to call the az group create function with --name and --location parameters, and then the az ml workspace create function, specifying alpha parameters for the workspace name and resource group.",
+          "D": "Navigate to Azure Machine Learning studio and create a workspace. ",
+          "E": "Run Python code that uses the Azure ML SDK library and calls the Workspace.get method with name, subscription_id, and resource_group parameters."
+        },
+        "answer": ["C", "B", "D"],
+        "explanation": "mmm double answer."
+      },
+      {
+        "index": 24,
+        "description": "An organization creates and deploys a multi-class image classification deep learning model that uses a set of labeled photographs. The software engineering team reports there is a heavy inferencing load for the prediction web services during the summer. The production web service for the model fails to meet demand despite having a fully-utilized compute cluster where the web service is deployed. You need to improve performance of the image classification web service with minimal downtime and minimal administrative effort. What should you advise the IT Operations team to do?",
+        "alternatives": {
+          "A": " Create a new compute cluster by using larger VM sizes for the nodes, redeploy the web service to that cluster, and update the DNS registration for the service endpoint to point to the new cluster.",
+          "B": "Increase the node count of the compute cluster where the web service is deployed.",
+          "C": "Increase the minimum node count of the compute cluster where the web service is deployed. ",
+          "D": "Increase the VM size of nodes in the compute cluster where the web service is deployed. "
+        },
+
+        "answer": ["B"],
+        "explanation": "The Azure Machine Learning SDK does not provide support scaling an AKS cluster. To scale the nodes in the cluster, use the UI for your AKS cluster in the Azure Machine Learning studio. You can only change the node count, not the VM size of the cluster."
+      },
+      {
+        "index": 25,
+        "description": "You use Azure Machine Learning designer to create a real-time service endpoint. You have a single Azure Machine Learning service compute resource. You train the model and prepare the real-time pipeline for deployment. You need to publish the inference pipeline as a web service. Which compute type should you use?",
+        "alternatives": {
+          "A": "a new Machine Learning Compute resource ",
+          "B": "Azure Kubernetes Services ",
+          "C": "HDInsight",
+          "D": "the existing Machine Learning Compute resource ",
+          "E": "Azure Databricks "
+        },
+        "answer": ["B"],
+        "explanation": "Azure Kubernetes Service (AKS) can be used real-time inference. https://docs.microsoft.com/en-us/azure/machine-learning/concept-compute-target"
+      },
+      {
+        "index": 26,
+        "description": "You plan to run a script as an experiment using a Script Run Configuration. The script uses modules from the scipy library as well as several Python packages that are not typically installed in a default conda environment. You plan to run the experiment on your local workstation for small datasets and scale out the experiment by running it on more powerful remote compute clusters for larger datasets. You need to ensure that the experiment runs successfully on local and remote compute with the least administrative effort. What should you do?",
+        "alternatives": {
+          "A": "Do not specify an environment in the run configuration for the experiment. Run the experiment by using the default environment. ",
+          "B": "Create a virtual machine (VM) with the required Python configuration and attach the VM as a compute target. Use this compute target for all experiment runs. ",
+          "C": "Create and register an Environment that includes the required packages. Use this Environment for all experiment runs. ",
+          "D": "Create a config.yaml file defining the conda packages that are required and save the file in the experiment folder. ",
+          "E": "Always run the experiment with an Estimator by using the default packages. "
+        },
+        "answer": ["C"],
+        "explanation": "If you have an existing Conda environment on your local computer, then you can use the service to create an environment object. By using this strategy, you can reuse your local interactive environment on remote runs."
+      },
+      {
+        "index": 27,
+        "description": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You train and register a machine learning model. You plan to deploy the model as a real-time web service. Applications must use key-based authentication to use the model. You need to deploy the web service. Solution: Create an AciWebservice instance.Set the value of the ssl_enabled property to True. Deploy the model to the service. Does the solution meet the goal?",
+        "alternatives": { "A": "Yes", "B": "No" },
+        "answer": ["B"],
+        "explanation": "Instead use only auth_enabled = TRUE"
+      },
+      {
+        "index": 28,
+        "description": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You train and register a machine learning model. You plan to deploy the model as a real-time web service. Applications must use key-based authentication to use the model. You need to deploy the web service. Solution: Create an AksWebservice instance. Set the value of the auth_enabled property to True. Deploy the model to the service. Does the solution meet the goal?",
+        "alternatives": { "A": "Yes", "B": "No" },
+        "answer": ["A"],
+        "explanation": "Web services deployed on AKS have key-based auth enabled by default. ACI-deployed services have key-based auth disabled by default, but you can enable it by setting auth_enabled = TRUE when creating the ACI web service. The following is an example of creating an ACI deployment configuration with key-based auth enabled. deployment_config <- aci_webservice_deployment_config(cpu_cores = 1, memory_gb = 1, auth_enabled = TRUE)"
+      },
+      {
+        "index": 29,
+        "description": "You train and register a machine learning model. You plan to deploy the model as a real-time web service. Applications must use key-based authentication to use the model. You need to deploy the web service. Solution: Create an AksWebservice instance. Set the value of the auth_enabled property to False. Set the value of the token_auth_enabled property to True. Deploy the model to the service. Does the solution meet the goal?",
+        "alternatives": { "A": "Yes", "B": "No" },
+        "answer": ["No"],
+        "explanation": "Instead use only auth_enabled = TRUE"
+      },
+      {
+        "index": 30,
+        "description": "You use the following Python code in a notebook to deploy a model as a web service: from azureml.core.webservice import AciWebservice from azureml.core.model import InferenceConfig inference_config = InferenceConfig(runtime='python', source_directory='model_files', entry_script='score.py', conda_file='env.yml') deployment_config = AciWebservice.deploy_configuration(cpu_cores=1, memory_gb=1) service = Model.deploy(ws, 'my-service', [model], inference_config, deployment_config) service.wait_for_deployment(True) The deployment fails. You need to use the Python SDK in the notebook to determine the events that occurred during service deployment an initialization. Which code segment should you use?",
+        "alternatives": {
+          "A": "service.state ",
+          "B": "service.get_logs() ",
+          "C": "service.serialize() ",
+          "D": "service.environment "
+        },
+        "answer": ["B"]
+      },
+      {
+        "index": 31,
+        "description": "You use the Azure Machine Learning Python SDK to define a pipeline that consists of multiple steps. When you run the pipeline, you observe that some steps do not run. The cached output from a previous run is used instead. You need to ensure that every step in the pipeline is run, even if the parameters and contents of the source directory have not changed since the previous run. What are two possible ways to achieve this goal? Each correct answer presents a complete solution. NOTE: Each correct selection is worth one point.",
+        "alternatives": {
+          "A": "Use a PipelineData object that references a datastore other than the default datastore. ",
+          "B": "Set the regenerate_outputs property of the pipeline to True. ",
+          "C": "Set the allow_reuse property of each step in the pipeline to False. ",
+          "D": "Restart the compute cluster where the pipeline experiment is configured to run.",
+          "E": "Set the outputs property of each step in the pipeline to True."
+        },
+        "answer": ["B", "C"],
+        "explanation": "B: If regenerate_outputs is set to True, a new submit will always force generation of all step outputs, and disallow data reuse for any step of this run. Once this run is complete, however, subsequent runs may reuse the results of this run.; C: Keep the following in mind when working with pipeline steps, input/output data, and step reuse."
+      },
+      {
+        "index": 32,
+        "description": "",
+        "alternatives": { "A": "", "B": "", "C": "", "D": "" },
+        "answer": [""],
+        "explanation": ""
+      },
+      {
+        "index": 33,
+        "description": "",
+        "alternatives": { "A": "", "B": "", "C": "", "D": "" },
+        "answer": [""],
+        "explanation": ""
+      }
+    ]
+  },
+  {
+    "setname": "set 2",
+    "questions": [
+      {
+        "index": 1,
+        "description": "You use Azure Machine Learning Studio to build a machine learning experiment. You need to divide data into two distinct datasets. Which module should you use?",
+        "alternatives": {
+          "A": "Assign Data to Clusters ",
+          "B": "Load Trained Model ",
+          "C": "Partition and Sample ",
+          "D": "Tune Model-Hyperparameters"
+        },
+        "answer": ["C"],
+        "explanation": "Partition and Sample with the Stratified split option outputs multiple datasets, partitioned using the rules you specified."
+      },
+      {
+        "index": 2,
+        "description": "You are creating a machine learning model. You have a dataset that contains null rows. You need to use the Clean Missing Data module in Azure Machine Learning Studio to identify and resolve the null and missing data in the dataset. Which parameter should you use?",
+        "alternatives": { "A": "", "B": "", "C": "", "D": "" },
+        "answer": [""],
+        "explanation": ""
+      },
+      {
+        "index": 3,
+        "description": "",
+        "alternatives": { "A": "", "B": "", "C": "", "D": "" },
+        "answer": [""],
+        "explanation": ""
+      },
+      {
+        "index": 4,
+        "description": "",
+        "alternatives": { "A": "", "B": "", "C": "", "D": "" },
+        "answer": [""],
+        "explanation": ""
+      },
+      {
+        "index": 5,
+        "description": "",
+        "alternatives": { "A": "", "B": "", "C": "", "D": "" },
+        "answer": [""],
+        "explanation": ""
+      },
+      {
+        "index": 6,
+        "description": "",
+        "alternatives": { "A": "", "B": "", "C": "", "D": "" },
+        "answer": [""],
+        "explanation": ""
+      },
+      {
+        "index": 7,
+        "description": "",
+        "alternatives": { "A": "", "B": "", "C": "", "D": "" },
+        "answer": [""],
+        "explanation": ""
+      },
+      {
+        "index": 8,
+        "description": "",
+        "alternatives": { "A": "", "B": "", "C": "", "D": "" },
+        "answer": [""],
+        "explanation": ""
+      }
+    ]
+  }
+]

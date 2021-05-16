@@ -1,0 +1,33 @@
+### Get index
+GET http://localhost:3030
+
+### Get questions 
+GET http://localhost:3030/questions/2/1 HTTP/1.1
+
+### Post Request 
+POST http://localhost:3030/questions/4 HTTP/1.1
+content-type: application/json
+
+{
+    "questions": [
+        {
+            "description": "Some description",
+            "alternatives": {
+                "A": "",
+                "B": "",
+                "C": "",
+                "D": ""
+            },
+            "answer": "A",
+            "explanation": ""
+        }
+    ]
+}
+
+### Put Request
+PUT http://localhost:3030/questions/2/6 HTTP/1.1
+content-type: application/json
+
+{
+    "explanation": "test of input API"
+}
