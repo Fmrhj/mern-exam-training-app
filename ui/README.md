@@ -1,4 +1,4 @@
-# Trainer App
+# Mern Exam Training UI
 
 React App to train for boring exams.
 
@@ -6,7 +6,3 @@ React App to train for boring exams.
 # Running in port 3000
 npm start
 ```
-
-## Backend
-
-Backend is written in NodeJs with [Express](https://expressjs.com/).
